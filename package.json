@@ -1,0 +1,23 @@
+{
+  "name": "Dog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Dmitrii Sorokin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "eslint": "^8.16.0",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "telegraf": "^4.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
